@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.wrapper{
+    /* max-width: 960px; 
+
+    padding-right: 10px;
+    padding-left: 10px;
+    margin:auto;
+    background-color:teal; */
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-image: url(https://cache.desktopnexus.com/thumbseg/1998/1998762-bigthumbnail.jpg);
+}
+.content{
+    max-width: 960px; 
+     height:100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin:auto;
+    background-color:black;
+    margin-bottom:30px;
+    overflow:auto;
+    font-family: 'Play', sans-serif;
+}
+header{
+    display:inline-block;
+    padding-top:20px;
+    
+    font-size:68px;
+    margin-bottom:100px;
+}
+.stats{
+    background-color: black;
+    font-size:24px;
+    
+}
+#word{
+    letter-spacing: 10px;
+    color: #37f26f;
+    display: none;
+}
+#wrongLetters{
+    letter-spacing: 10px;
+    color: orange;
+}
+#sound{
+    visibility: hidden;
+}
+#unseen{
+    letter-spacing: 10px;
+    color: #37f26f;
+}
+
+#sound2{
+    visibility: hidden;
+}
